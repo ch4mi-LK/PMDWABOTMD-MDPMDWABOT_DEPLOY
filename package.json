@@ -1,12 +1,12 @@
 {
-    "name": "HEROKU-PMD-DEPLOY",
-    "version": "2.1.5",
+    "name": "HEROKU-RMD-DEPLOY",
+    "version": "1.0.0",
     "description": "null",
     "main": "start.js",
     "scripts": {
-        "start": "pm2 start start.js --deep-monitoring --attach --name mdpmdwabot",
-        "stop": "pm2 stop mdpmdwabot",
-        "restart": "pm2 restart mdpmdwabot"
+        "start": "pm2 start start.js --deep-monitoring --attach --name RIONA-MD",
+        "stop": "pm2 stop RIONA-MD",
+        "restart": "pm2 restart RIONA-MD"
     },
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
